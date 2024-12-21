@@ -1,11 +1,10 @@
-body{
-    background-color: azure;
-    color: darkslateblue;
+body  {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     margin: 5px;
     padding: 2px;
     font-family: Arial, Helvetica, sans-serif;
 }
-header,
 footer {
     text-align: right;
     background-color: gainsboro;
@@ -14,21 +13,27 @@ footer {
 p {
     text-align: justify;
     text-indent: 8ch;
+    size: 12px;
 }
-p::first-letter {
-    font-size: 120%;
-    color: blueviolet;
-    text-decoration-line: underline;
+
+h2
+ {
+    
+    color: rgb(0, 0, 0);
 }
-section:hover {
-    background-color: antiquewhite;
+h3{
+    text-align: center;
 }
-h2,
-p::first-line {
-    color: black;
-}
-h3,
 h4 {
-    color: crimson;
-    text-decoration-line: underline;
+    text-align: center;
+    color: rgb(0, 0, 0);
+   
+}
+h1
+ {
+    color: black;
+    padding-left: 300px;
+    size:300px ;
+    text-align: left;
+    padding-top: 300px;
 }
